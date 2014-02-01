@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+
+perl -pi -e 's/^(.+)\r$/\"$1\",/g'
